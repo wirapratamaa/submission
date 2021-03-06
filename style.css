@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar h1{
+    display: inline-block;
+    padding: 16px 24px;
+    
+}
+.navbar h1 a{
+    transition: 0.3s;
+    color: rgb(99, 99, 99);
+}
+
+.navbar h1 a:hover{
+    color: rgb(201, 96, 26);
+}
+.navbar nav {
+    float: right;
+}
+
+.navbar nav ul li{
+    padding: 24px;
+    display: inline-block;
+}
+.navbar nav ul li a{
+    transition: 0.3s;
+    color: rgb(99, 99, 99);
+}
+.navbar nav ul li a:hover{
+    color: rgb(201, 96, 26);
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    margin: 0 auto;
+    height: 100vh;
+    width: 100%;
+    background-image: url("/assets/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
