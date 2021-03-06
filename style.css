@@ -2,7 +2,9 @@
     padding: 0;
     margin: 0;
 }
-
+.navbar{
+    background-color: #a1cae2;
+}
 .navbar h1{
     display: inline-block;
     padding: 16px 24px;
@@ -18,6 +20,7 @@
 }
 .navbar nav {
     float: right;
+    
 }
 
 .navbar nav ul li{
@@ -36,9 +39,8 @@ a{
     text-decoration: none;
 }
 
-.navbar{
+.about{
     margin: 0 auto;
-    height: 100vh;
     width: 100%;
     background-image: url("/assets/bg.jpg");
     background-position: center;
@@ -47,4 +49,16 @@ a{
     padding-right: 5%;
     box-sizing: border-box;
     position: relative;
+}
+
+.picture img{
+    height: 300px;
+    border-radius: 50px;
+
+}
+footer{
+    background-color: #a1cae2;
+}
+footer h3{
+    text-align: center;
 }
