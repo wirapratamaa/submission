@@ -12,10 +12,10 @@
     flex-wrap: wrap;
     width: 100%;
     height: 70px;
-    background-color: #8b8b8b96;
+    background-color: #8b8b8b;
     z-index: 1;
 }
-.logo{
+.navbar h1{
     flex: 1 1 auto;
     margin-left: 10%;
     letter-spacing: 1px;
@@ -60,7 +60,7 @@ label{
     bottom: 0;
     left: -300px;
     width: 300px;
-    background-color: rgba(16, 47, 80, 0.9);
+    background-color: rgba(133, 133, 133, 0.9);
     transition: 0.3s;
     z-index: 9999;
 }
@@ -163,6 +163,7 @@ section h3{
     margin: 10px;
     list-style: none;
     font-size: 22px;
+    
 }
 .contact-list{
     display: flex;
